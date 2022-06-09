@@ -13,10 +13,15 @@ const MyPosts = () => {
 
 
          <div className={classes.posts}>
-            < Post />
+            <Post message='Hi, how are you' />
+            <Post message="It's my first post" />
+            <Post like="20" />
+            <Post like="10" />
+            <Post like="30" />
+            
          </div>
       </div>
-   )
+   );
 }
 
 export default MyPosts;
